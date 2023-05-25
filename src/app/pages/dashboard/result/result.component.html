@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="title">Take a Quiz</div>
+    <div class="desc">Test your knowledge of any the following quiz are familiar with</div>
+</div>
+<div class="row">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{myResult.group}}</h5>
+            <p class="card-text">Your Score : {{myResult.benar * 20}}</p>
+            <div class="card-link" (click)="handleGroup()">Take anothers quiz</div>
+        </div>
+    </div>
+</div>

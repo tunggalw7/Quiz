@@ -1,0 +1,7 @@
+{
+    "data" : [
+        {"id": 1, "group": "CSS Quiz", "desc": "simple quiz to test your knowledge of CSS"},
+        {"id": 2, "group": "Javascript", "desc": "simple quiz to test your knowledge of Javascript"},
+        {"id": 3, "group": "Angular", "desc": "simple quiz to test your knowledge of Angular"}
+    ]
+}

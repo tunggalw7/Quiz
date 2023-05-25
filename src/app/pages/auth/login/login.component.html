@@ -1,0 +1,22 @@
+<div class="auth-login">
+  <div class="logo-wrapper">
+    <img
+      width="40"
+      alt="Angular Logo"
+      src="https://cdn-icons-png.flaticon.com/512/5692/5692030.png"
+    />
+    <span>Quiz App</span>
+  </div>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">   
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label" >Enter your name</label>
+      <input type="text" formControlName="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+      <p class="status-danger" *ngIf="f.name.errors?.required">
+        Please fill a name
+      </p>
+    </div>
+    <div class="action">
+        <button class="navigation" [disabled]="!loginForm.valid">Login</button>
+    </div>
+  </form>
+</div>

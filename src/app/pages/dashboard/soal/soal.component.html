@@ -1,0 +1,36 @@
+<div *ngIf="!result.group" class="quiz-wrapper">
+    <span class="total">Question : {{currentNumber + 1}} / {{total}}</span>
+    <div class="title">{{soal[currentNumber]?.question}}</div>
+    <div class="choose">
+        <div *ngFor="let item of soal[currentNumber]?.chooses" [ngClass]="{'active': item.key === soal[currentNumber]?.yourAnswer}" class="text" (click)="handleChoose(item.key)">
+            <span class="key">{{item.key}}</span> 
+            <span class="label">{{item.label}}</span>
+        </div>
+    </div>
+    <div class="action">
+        <button [disabled]="currentNumber === 0" class="navigation" (click)="handlePrev()">Prev Question</button>
+        <button *ngIf="currentNumber+1 !== total" class="navigation" (click)="handleNext()">Next Question</button>
+        <button *ngIf="currentNumber+1 === total" class="navigation" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit Question</button>
+    </div>
+</div>
+<div *ngIf="result.group">
+  <!-- Calling other component with input state emitter -->
+  <app-result [myResult]="result" /> 
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure to submit your answer?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="action popup">
+            <button class="navigation" data-bs-dismiss="modal">Cancel</button>
+            <button class="navigation" (click)="handleSubmit()" data-bs-dismiss="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

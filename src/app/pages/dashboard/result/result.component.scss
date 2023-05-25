@@ -1,0 +1,36 @@
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.desc{
+    font-size: 16px;
+    text-align: center;
+}
+.card{
+    margin: 20px auto;
+    width: 28rem;
+    .card-title{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .card-body{        
+        text-align: center;
+    }
+    .card-text{        
+        font-size: 30px;
+    }
+    .card-link{
+        background-color: #26a5da;
+        color: #FFF;
+        padding: 5px 10px;
+        font-weight: 500;
+        text-decoration: none;
+        width: 140px;
+        margin: auto;
+        cursor: pointer;
+        &:hover{
+            scale: 1.1;
+        }
+    }
+}

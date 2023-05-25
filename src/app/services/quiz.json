@@ -1,0 +1,79 @@
+{
+    "data" : [
+        {
+            "groupId": 1, "group": "css", "no": 1, "question": "What does CSS stand for?", 
+            "chooses": [{"key": "a", "label": "Colorful Style Sheets"}, {"key": "b", "label": "Computer Style Sheets"}, {"key": "c", "label": "Cascading Style Sheets"}, {"key": "d", "label": "Creative Style Sheets"}], 
+            "answer": "c", "yourAnswer": ""
+        },
+        {
+            "groupId": 1, "group": "css", "no": 2, "question": "Which of the following is the correct syntax to add the external stylesheet in CSS?", 
+            "chooses": [{"key": "a", "label": "<style src = quiz.css>"}, {"key": "b", "label": "<style src = 'quiz.css'>"}, {"key": "c", "label": "<stylesheet> quiz.css </stylesheet>"}, {"key": "d", "label": "<link rel='stylesheet' type='quiz/css' href='quiz.css'>"}], 
+            "answer": "d", "yourAnswer": "" 
+        },
+        {
+            "groupId": 1, "group": "css", "no": 3, "question": "Which of the below CSS properties is used to change the background color of CSS ?", 
+            "chooses": [{"key": "a", "label": "bg color"}, {"key": "b", "label": "color-background"}, {"key": "c", "label": "background-color"}, {"key": "d", "label": "color"}], 
+            "answer": "c", "yourAnswer": "" 
+        },
+        {
+            "groupId": 1, "group": "css", "no": 4, "question": "Which of the below CSS class is used to change the text color of CSS ?", 
+            "chooses": [{"key": "a", "label": "background-color"}, {"key": "b", "label": "color"}, {"key": "c", "label": "color-background"}, {"key": "d", "label": "None of the above"}], 
+            "answer": "b", "yourAnswer": "" 
+        },
+        {
+            "groupId": 1, "group": "css", "no": 5, "question": "Which of the below is the correct syntax to put a line over text in CSS?", 
+            "chooses": [{"key": "a", "label": "text-decoration: line"}, {"key": "b", "label": "text-decoration: none"}, {"key": "c", "label": "text-decoration: overline"}, {"key": "d", "label": "text-decoration: underline"}], 
+            "answer": "c", "yourAnswer": "" 
+        },
+        {
+            "groupId": 2, "group": "javascript", "no": 1, "question": "What is JavaScript?", 
+            "chooses": [{"key": "a", "label": "JavaScript is a scripting language used to make the website interactive"}, {"key": "b", "label": "JavaScript is an assembly language used to make the website interactive"}, {"key": "c", "label": "JavaScript is a compiled language used to make the website interactive"}, {"key": "d", "label": "None of the mentioned"}], 
+            "answer": "a", "yourAnswer": "" 
+        },
+        {
+            "groupId": 2, "group": "javascript", "no": 2, "question": "Which of the following is correct about JavaScript?", 
+            "chooses": [{"key": "a", "label": "JavaScript is an Object-Based language"}, {"key": "b", "label": "JavaScript is Assembly-language"}, {"key": "c", "label": "JavaScript is an Object-Oriented language"}, {"key": "d", "label": "JavaScript is a High-level language"}], 
+            "answer": "a", "yourAnswer": "" 
+        },
+        {
+            "groupId": 2, "group": "javascript", "no": 3, "question": "Among the given statements, which statement defines closures in JavaScript?", 
+            "chooses": [{"key": "a", "label": "JavaScript is a function that is enclosed with references to its inner function scope"}, {"key": "b", "label": "JavaScript is a function that is enclosed with references to its inner function scope"}, {"key": "c", "label": "JavaScript is a function that is enclosed with the object to its inner function scope"}, {"key": "d", "label": "None of the mentioned"}], 
+            "answer": "b", "yourAnswer": "" 
+        },
+        {
+            "groupId": 2, "group": "javascript", "no": 4, "question": "Arrays in JavaScript are defined by which of the following statements?", 
+            "chooses": [{"key": "a", "label": "It is an ordered list of values"}, {"key": "b", "label": "It is an ordered list of objects"}, {"key": "c", "label": "It is an ordered list of string"}, {"key": "d", "label": "It is an ordered list of functions"}], 
+            "answer": "a", "yourAnswer": "" 
+        },
+        {
+            "groupId": 2, "group": "javascript", "no": 5, "question": "Which of the following is not javascript data types?", 
+            "chooses": [{"key": "a", "label": "Null type"}, {"key": "b", "label": "Undefined type"}, {"key": "c", "label": "Number type"}, {"key": "d", "label": "All of the mentioned"}], 
+            "answer": "d", "yourAnswer": "" 
+        },
+        {
+            "groupId": 3, "group": "angular", "no": 1, "question": "Which of the following is correct about TypeScript?", 
+            "chooses": [{"key": "a", "label": "Angular is based on TypeScript."}, {"key": "b", "label": "This is a superset of JavaScript."}, {"key": "c", "label": "TypeScript is maintained by Microsoft."}, {"key": "d", "label": "All of the above."}], 
+            "answer": "d", "yourAnswer": "" 
+        },
+        {
+            "groupId": 3, "group": "angular", "no": 2, "question": "What is .subscribe?", 
+            "chooses": [{"key": "a", "label": "Streams data in asynchronously"}, {"key": "b", "label": "Streams data in synchronously"}, {"key": "c", "label": "Both"}, {"key": "d", "label": "None of above"}], 
+            "answer": "c", "yourAnswer": "" 
+        },
+        {
+            "groupId": 3, "group": "angular", "no": 3, "question": "What does AOT stand for?", 
+            "chooses": [{"key": "a", "label": "Ahead-Of-Time Compilation"}, {"key": "b", "label": "Angular Object Templates"}, {"key": "c", "label": "Both"}, {"key": "d", "label": "None of above"}], 
+            "answer": "a", "yourAnswer": "" 
+        },
+        {
+            "groupId": 3, "group": "angular", "no": 4, "question": "Which of the following is not a hook application life cycle?", 
+            "chooses": [{"key": "a", "label": "ngOnChanges"}, {"key": "b", "label": "ngViewStart"}, {"key": "c", "label": "ngOnInit"}, {"key": "d", "label": "None of the above"}], 
+            "answer": "b", "yourAnswer": "" 
+        },
+        {
+            "groupId": 3, "group": "angular", "no": 5, "question": "Router is part of which of the following module?", 
+            "chooses": [{"key": "a", "label": "@angular/core"}, {"key": "b", "label": "@angular/router"}, {"key": "c", "label": "Both"}, {"key": "d", "label": "None of the above"}], 
+            "answer": "b", "yourAnswer": "" 
+        }
+    ]
+}
